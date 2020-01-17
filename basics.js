@@ -16,6 +16,7 @@ const person = {
         }
     };
 let finish = person.weight - 3;
+
 /** Arrow function */
 const isAdult = ({ age }) => !(age > ageAdult);
 const increaseWeight = person => person.weight += changeWeight;
