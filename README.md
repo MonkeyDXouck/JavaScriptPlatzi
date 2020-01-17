@@ -1,2 +1,2 @@
 # JavaScriptPlatzi
-js de los ejercicios puestos en el curso de fundamentos en Platzi.
+js de los ejercicios propuestos en el curso de fundamentos en Platzi.
