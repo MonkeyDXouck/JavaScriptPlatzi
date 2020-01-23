@@ -6,6 +6,7 @@ class Person {
      * @param name
      * @param lastName
      * @param height
+     * @param isDev
      */
     constructor (name, lastName, height, isDev) {
         this.name = name;
@@ -14,6 +15,9 @@ class Person {
         this.isDev = isDev;
     }
 
+    /**
+     * @param fn function
+     */
     greet (fn) {
         let { name, lastName, isDev } = this;
         console.dir('---------------------');
